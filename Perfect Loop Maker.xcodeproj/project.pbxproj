@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3035A132864F27A00ACD701 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3035A122864F27A00ACD701 /* HomeViewModel.swift */; };
+		C3035A202868503600ACD701 /* AssetPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3035A1F2868503600ACD701 /* AssetPickerView.swift */; };
+		C3035A222868504300ACD701 /* AssetPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3035A212868504300ACD701 /* AssetPickerViewModel.swift */; };
+		C3035A24286892AF00ACD701 /* VideoExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3035A23286892AF00ACD701 /* VideoExporter.swift */; };
+		C3035A2628703F2E00ACD701 /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3035A2528703F2E00ACD701 /* PlayerUIView.swift */; };
+		C3035A282870400900ACD701 /* marilyn.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = C3035A272870400900ACD701 /* marilyn.MP4 */; };
+		C3054BCF2840F9E40073C4D6 /* PerfectLoopMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3054BCE2840F9E40073C4D6 /* PerfectLoopMakerApp.swift */; };
+		C3054BD12840F9E40073C4D6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3054BD02840F9E40073C4D6 /* HomeView.swift */; };
+		C3054BD32840F9E70073C4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3054BD22840F9E70073C4D6 /* Assets.xcassets */; };
+		C3054BD62840F9E70073C4D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3054BD52840F9E70073C4D6 /* Preview Assets.xcassets */; };
+		C324A56228706FDE0048ECE2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324A56128706FDE0048ECE2 /* OnboardingView.swift */; };
+		C324A56E2871C8800048ECE2 /* SettignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324A56D2871C8800048ECE2 /* SettignsView.swift */; };
+		C324A570287200BE0048ECE2 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324A56F287200BE0048ECE2 /* EmailViewController.swift */; };
+		C324A5762872E5A50048ECE2 /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = C324A5752872E5A50048ECE2 /* SlideOverCard */; };
+		C324A57928730E010048ECE2 /* marilyn_original.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C324A57828730E010048ECE2 /* marilyn_original.mp4 */; };
+		C34380FA2879E74C0037AEBC /* SmoothTransitionFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34380F92879E74C0037AEBC /* SmoothTransitionFilter.swift */; };
+		C3438100287ABC320037AEBC /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34380FF287ABC320037AEBC /* OnboardingViewModel.swift */; };
+		C3438106287AF2450037AEBC /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3438105287AF2450037AEBC /* ExportView.swift */; };
+		C3A82CDE284119D60009C234 /* MetalPetal in Frameworks */ = {isa = PBXBuildFile; productRef = C3A82CDD284119D60009C234 /* MetalPetal */; };
+		C3A82CE52841343F0009C234 /* VideoProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A82CE42841343F0009C234 /* VideoProcessor.swift */; };
+		C3A82CE92841635E0009C234 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = C3A82CE82841635E0009C234 /* Shaders.metal */; };
+		C3A82CFC2842969C0009C234 /* VideoIO in Frameworks */ = {isa = PBXBuildFile; productRef = C3A82CFB2842969C0009C234 /* VideoIO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3054BDC2840F9E80073C4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3054BC32840F9E40073C4D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3054BCA2840F9E40073C4D6;
+			remoteInfo = Reborn;
+		};
+		C3054BE62840F9E80073C4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3054BC32840F9E40073C4D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3054BCA2840F9E40073C4D6;
+			remoteInfo = Reborn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3035A122864F27A00ACD701 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C3035A1F2868503600ACD701 /* AssetPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetPickerView.swift; sourceTree = "<group>"; };
+		C3035A212868504300ACD701 /* AssetPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetPickerViewModel.swift; sourceTree = "<group>"; };
+		C3035A23286892AF00ACD701 /* VideoExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoExporter.swift; sourceTree = "<group>"; };
+		C3035A2528703F2E00ACD701 /* PlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
+		C3035A272870400900ACD701 /* marilyn.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = marilyn.MP4; sourceTree = "<group>"; };
+		C3054BCB2840F9E40073C4D6 /* Perfect Loop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Perfect Loop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3054BCE2840F9E40073C4D6 /* PerfectLoopMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectLoopMakerApp.swift; sourceTree = "<group>"; };
+		C3054BD02840F9E40073C4D6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C3054BD22840F9E70073C4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3054BD52840F9E70073C4D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3054BDB2840F9E80073C4D6 /* Perfect Loop MakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perfect Loop MakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3054BE52840F9E80073C4D6 /* Perfect Loop MakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perfect Loop MakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C324A56128706FDE0048ECE2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C324A56D2871C8800048ECE2 /* SettignsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettignsView.swift; sourceTree = "<group>"; };
+		C324A56F287200BE0048ECE2 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		C324A5772872F04B0048ECE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C324A57828730E010048ECE2 /* marilyn_original.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = marilyn_original.mp4; sourceTree = "<group>"; };
+		C34380F92879E74C0037AEBC /* SmoothTransitionFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothTransitionFilter.swift; sourceTree = "<group>"; };
+		C34380FB287A19BC0037AEBC /* PerfectLoopMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PerfectLoopMaker.entitlements; sourceTree = "<group>"; };
+		C34380FF287ABC320037AEBC /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		C3438105287AF2450037AEBC /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		C3A82CE42841343F0009C234 /* VideoProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProcessor.swift; sourceTree = "<group>"; };
+		C3A82CE82841635E0009C234 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3054BC82840F9E40073C4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A82CDE284119D60009C234 /* MetalPetal in Frameworks */,
+				C324A5762872E5A50048ECE2 /* SlideOverCard in Frameworks */,
+				C3A82CFC2842969C0009C234 /* VideoIO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3054BD82840F9E80073C4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3054BE22840F9E80073C4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3054BC22840F9E40073C4D6 = {
+			isa = PBXGroup;
+			children = (
+				C308628628A7AA4D007B4110 /* Videos */,
+				C3054BCD2840F9E40073C4D6 /* Project */,
+				C3054BDE2840F9E80073C4D6 /* UnitTests */,
+				C3054BE82840F9E80073C4D6 /* UITests */,
+				C3054BCC2840F9E40073C4D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3054BCC2840F9E40073C4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3054BCB2840F9E40073C4D6 /* Perfect Loop.app */,
+				C3054BDB2840F9E80073C4D6 /* Perfect Loop MakerTests.xctest */,
+				C3054BE52840F9E80073C4D6 /* Perfect Loop MakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3054BCD2840F9E40073C4D6 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				C3438102287ABCB00037AEBC /* Core */,
+				C34380FC287ABBB20037AEBC /* Views */,
+				C34380FB287A19BC0037AEBC /* PerfectLoopMaker.entitlements */,
+				C324A5772872F04B0048ECE2 /* Info.plist */,
+				C3054BCE2840F9E40073C4D6 /* PerfectLoopMakerApp.swift */,
+				C3A82CE82841635E0009C234 /* Shaders.metal */,
+				C3054BD22840F9E70073C4D6 /* Assets.xcassets */,
+				C3054BD42840F9E70073C4D6 /* Preview Content */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		C3054BD42840F9E70073C4D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C3054BD52840F9E70073C4D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3054BDE2840F9E80073C4D6 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		C3054BE82840F9E80073C4D6 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		C308628628A7AA4D007B4110 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				C324A57828730E010048ECE2 /* marilyn_original.mp4 */,
+				C3035A272870400900ACD701 /* marilyn.MP4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		C308628728A7DEFE007B4110 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				C3035A2528703F2E00ACD701 /* PlayerUIView.swift */,
+				C3438105287AF2450037AEBC /* ExportView.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		C34380F82879E72D0037AEBC /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				C3A82CE42841343F0009C234 /* VideoProcessor.swift */,
+				C34380F92879E74C0037AEBC /* SmoothTransitionFilter.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		C34380FC287ABBB20037AEBC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C308628728A7DEFE007B4110 /* Export */,
+				C3438104287ABCCC0037AEBC /* Home */,
+				C3438103287ABCC40037AEBC /* Settings */,
+				C34380FE287ABC0B0037AEBC /* Onboarding */,
+				C34380FD287ABBC90037AEBC /* Asset Picker */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C34380FD287ABBC90037AEBC /* Asset Picker */ = {
+			isa = PBXGroup;
+			children = (
+				C3035A212868504300ACD701 /* AssetPickerViewModel.swift */,
+				C3035A1F2868503600ACD701 /* AssetPickerView.swift */,
+			);
+			path = "Asset Picker";
+			sourceTree = "<group>";
+		};
+		C34380FE287ABC0B0037AEBC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C34380FF287ABC320037AEBC /* OnboardingViewModel.swift */,
+				C324A56128706FDE0048ECE2 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C3438102287ABCB00037AEBC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C3035A23286892AF00ACD701 /* VideoExporter.swift */,
+				C34380F82879E72D0037AEBC /* Filter */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C3438103287ABCC40037AEBC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C324A56D2871C8800048ECE2 /* SettignsView.swift */,
+				C324A56F287200BE0048ECE2 /* EmailViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C3438104287ABCCC0037AEBC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C3035A122864F27A00ACD701 /* HomeViewModel.swift */,
+				C3054BD02840F9E40073C4D6 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3054BCA2840F9E40073C4D6 /* Perfect Loop Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3054BEF2840F9E80073C4D6 /* Build configuration list for PBXNativeTarget "Perfect Loop Maker" */;
+			buildPhases = (
+				C3054BC72840F9E40073C4D6 /* Sources */,
+				C3054BC82840F9E40073C4D6 /* Frameworks */,
+				C3054BC92840F9E40073C4D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Perfect Loop Maker";
+			packageProductDependencies = (
+				C3A82CDD284119D60009C234 /* MetalPetal */,
+				C3A82CFB2842969C0009C234 /* VideoIO */,
+				C324A5752872E5A50048ECE2 /* SlideOverCard */,
+			);
+			productName = Reborn;
+			productReference = C3054BCB2840F9E40073C4D6 /* Perfect Loop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3054BDA2840F9E80073C4D6 /* Perfect Loop MakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3054BF22840F9E80073C4D6 /* Build configuration list for PBXNativeTarget "Perfect Loop MakerTests" */;
+			buildPhases = (
+				C3054BD72840F9E80073C4D6 /* Sources */,
+				C3054BD82840F9E80073C4D6 /* Frameworks */,
+				C3054BD92840F9E80073C4D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3054BDD2840F9E80073C4D6 /* PBXTargetDependency */,
+			);
+			name = "Perfect Loop MakerTests";
+			productName = RebornTests;
+			productReference = C3054BDB2840F9E80073C4D6 /* Perfect Loop MakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3054BE42840F9E80073C4D6 /* Perfect Loop MakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3054BF52840F9E80073C4D6 /* Build configuration list for PBXNativeTarget "Perfect Loop MakerUITests" */;
+			buildPhases = (
+				C3054BE12840F9E80073C4D6 /* Sources */,
+				C3054BE22840F9E80073C4D6 /* Frameworks */,
+				C3054BE32840F9E80073C4D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3054BE72840F9E80073C4D6 /* PBXTargetDependency */,
+			);
+			name = "Perfect Loop MakerUITests";
+			productName = RebornUITests;
+			productReference = C3054BE52840F9E80073C4D6 /* Perfect Loop MakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3054BC32840F9E40073C4D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C3054BCA2840F9E40073C4D6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C3054BDA2840F9E80073C4D6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C3054BCA2840F9E40073C4D6;
+					};
+					C3054BE42840F9E80073C4D6 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C3054BCA2840F9E40073C4D6;
+					};
+				};
+			};
+			buildConfigurationList = C3054BC62840F9E40073C4D6 /* Build configuration list for PBXProject "Perfect Loop Maker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3054BC22840F9E40073C4D6;
+			packageReferences = (
+				C3A82CDC284119D60009C234 /* XCRemoteSwiftPackageReference "MetalPetal" */,
+				C3A82CFA2842969C0009C234 /* XCRemoteSwiftPackageReference "VideoIO" */,
+				C324A5742872E5A50048ECE2 /* XCRemoteSwiftPackageReference "SlideOverCard" */,
+			);
+			productRefGroup = C3054BCC2840F9E40073C4D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3054BCA2840F9E40073C4D6 /* Perfect Loop Maker */,
+				C3054BDA2840F9E80073C4D6 /* Perfect Loop MakerTests */,
+				C3054BE42840F9E80073C4D6 /* Perfect Loop MakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3054BC92840F9E40073C4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3035A282870400900ACD701 /* marilyn.MP4 in Resources */,
+				C324A57928730E010048ECE2 /* marilyn_original.mp4 in Resources */,
+				C3054BD62840F9E70073C4D6 /* Preview Assets.xcassets in Resources */,
+				C3054BD32840F9E70073C4D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3054BD92840F9E80073C4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3054BE32840F9E80073C4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3054BC72840F9E40073C4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3035A132864F27A00ACD701 /* HomeViewModel.swift in Sources */,
+				C3035A202868503600ACD701 /* AssetPickerView.swift in Sources */,
+				C3A82CE92841635E0009C234 /* Shaders.metal in Sources */,
+				C324A56228706FDE0048ECE2 /* OnboardingView.swift in Sources */,
+				C3A82CE52841343F0009C234 /* VideoProcessor.swift in Sources */,
+				C3438100287ABC320037AEBC /* OnboardingViewModel.swift in Sources */,
+				C324A56E2871C8800048ECE2 /* SettignsView.swift in Sources */,
+				C3054BD12840F9E40073C4D6 /* HomeView.swift in Sources */,
+				C3438106287AF2450037AEBC /* ExportView.swift in Sources */,
+				C324A570287200BE0048ECE2 /* EmailViewController.swift in Sources */,
+				C3035A222868504300ACD701 /* AssetPickerViewModel.swift in Sources */,
+				C3035A24286892AF00ACD701 /* VideoExporter.swift in Sources */,
+				C34380FA2879E74C0037AEBC /* SmoothTransitionFilter.swift in Sources */,
+				C3054BCF2840F9E40073C4D6 /* PerfectLoopMakerApp.swift in Sources */,
+				C3035A2628703F2E00ACD701 /* PlayerUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3054BD72840F9E80073C4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3054BE12840F9E80073C4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3054BDD2840F9E80073C4D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3054BCA2840F9E40073C4D6 /* Perfect Loop Maker */;
+			targetProxy = C3054BDC2840F9E80073C4D6 /* PBXContainerItemProxy */;
+		};
+		C3054BE72840F9E80073C4D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3054BCA2840F9E40073C4D6 /* Perfect Loop Maker */;
+			targetProxy = C3054BE62840F9E80073C4D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3054BED2840F9E80073C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				MTL_HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3054BEE2840F9E80073C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				MTL_HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3054BF02840F9E80073C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Project/PerfectLoopMaker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Project/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Project/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app needs to access your Photo Library to use and save videos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfect-loop-maker";
+				PRODUCT_NAME = "Perfect Loop";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3054BF12840F9E80073C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Project/PerfectLoopMaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Project/Preview Content\"";
+				DEVELOPMENT_TEAM = 39W8GMTAUV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Project/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app needs to access your Photo Library to use and save videos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.belmeha.perfect-loop";
+				PRODUCT_NAME = "Perfect Loop";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3054BF32840F9E80073C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39W8GMTAUV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belmeha.RebornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perfect Loop Maker.app/Perfect Loop Maker";
+			};
+			name = Debug;
+		};
+		C3054BF42840F9E80073C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39W8GMTAUV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belmeha.RebornTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perfect Loop Maker.app/Perfect Loop Maker";
+			};
+			name = Release;
+		};
+		C3054BF62840F9E80073C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39W8GMTAUV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belmeha.RebornUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reborn;
+			};
+			name = Debug;
+		};
+		C3054BF72840F9E80073C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39W8GMTAUV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.belmeha.RebornUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reborn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3054BC62840F9E40073C4D6 /* Build configuration list for PBXProject "Perfect Loop Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3054BED2840F9E80073C4D6 /* Debug */,
+				C3054BEE2840F9E80073C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3054BEF2840F9E80073C4D6 /* Build configuration list for PBXNativeTarget "Perfect Loop Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3054BF02840F9E80073C4D6 /* Debug */,
+				C3054BF12840F9E80073C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3054BF22840F9E80073C4D6 /* Build configuration list for PBXNativeTarget "Perfect Loop MakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3054BF32840F9E80073C4D6 /* Debug */,
+				C3054BF42840F9E80073C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3054BF52840F9E80073C4D6 /* Build configuration list for PBXNativeTarget "Perfect Loop MakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3054BF62840F9E80073C4D6 /* Debug */,
+				C3054BF72840F9E80073C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C324A5742872E5A50048ECE2 /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/SlideOverCard";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A82CDC284119D60009C234 /* XCRemoteSwiftPackageReference "MetalPetal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MetalPetal/MetalPetal";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		C3A82CFA2842969C0009C234 /* XCRemoteSwiftPackageReference "VideoIO" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MetalPetal/VideoIO";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C324A5752872E5A50048ECE2 /* SlideOverCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C324A5742872E5A50048ECE2 /* XCRemoteSwiftPackageReference "SlideOverCard" */;
+			productName = SlideOverCard;
+		};
+		C3A82CDD284119D60009C234 /* MetalPetal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A82CDC284119D60009C234 /* XCRemoteSwiftPackageReference "MetalPetal" */;
+			productName = MetalPetal;
+		};
+		C3A82CFB2842969C0009C234 /* VideoIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A82CFA2842969C0009C234 /* XCRemoteSwiftPackageReference "VideoIO" */;
+			productName = VideoIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C3054BC32840F9E40073C4D6 /* Project object */;
+}

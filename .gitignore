@@ -30,6 +30,9 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
+## Mac
+*.DS_Store
+
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace

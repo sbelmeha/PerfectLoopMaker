@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "metalpetal",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MetalPetal/MetalPetal",
+      "state" : {
+        "revision" : "d9a538fa0649221569362148c011d232ee8d25a6",
+        "version" : "1.24.1"
+      }
+    },
+    {
+      "identity" : "slideovercard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/joogps/SlideOverCard",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f58d646d7666c00cf4c4835a3b674a3d905b3fa9"
+      }
+    },
+    {
+      "identity" : "videoio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MetalPetal/VideoIO",
+      "state" : {
+        "revision" : "22f7c00083b7e16c7e15ace1adcdb90fb5ffe006",
+        "version" : "2.3.1"
+      }
+    }
+  ],
+  "version" : 2
+}
